@@ -4,7 +4,7 @@
 
 **DESCRIPTION OF "Averages.txt"**
 
-This data set contains 180 rows (resulting from the combination of 30 subjects and 6 activities) and 68 columns. 
+This data set contains 180 rows (resulting from the combination of 30 subjects and 6 activities, see below) and 68 columns. 
 The first column contains the subject number (ranging from 1 to 30), the second column contains the name of the activity (the six possible activities are  LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS), while all the other columns are the averages of the quantities indicated by the column names for each subject and activity combination  (eg: the first row of column 3 is the average of the x component of body acceleration for subject 1 and activity "LAYING"). 
 
 The units of measures of the variables in column 3 through column 68 are the same as those in the original data. 
