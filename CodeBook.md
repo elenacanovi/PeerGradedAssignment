@@ -2,6 +2,7 @@
 -  DESCRIPTION OF "Averages.txt"
 -  STEPS TO CONSTRUCT "Averages.txt" 
 
+[mylink](#Header)
 
 **DESCRIPTION OF "Averages.txt"**
 
