@@ -4,6 +4,7 @@
 
 [mylink](#Header)
 
+
 **DESCRIPTION OF "Averages.txt"**
 
 This data set contains 180 rows (resulting from the combination of 30 subjects and 6 activities) and 68 columns. 
@@ -11,6 +12,8 @@ The first column contains the subject number (ranging from 1 to 30), the second 
 
 The units of measures of the variables in column 3 through column 68 are the same as those in the original data. 
 See file UCI\ HAR \Dataset/features_info.txt for details. 
+
+#Header
 
 **Column names:**
 -  Subject 
