@@ -3,7 +3,7 @@
 -  STEPS TO CONSTRUCT "Averages.txt" 
 
 
-DESCRIPTION OF "Averages.txt" 
+**DESCRIPTION OF "Averages.txt"**
 
 This data set contains 180 rows (resulting from the combination of 30 subjects and 6 activities) and 68 columns. 
 The first column contains the subject number (ranging from 1 to 30), the second column contains the name of the activity (the six possible activities are  LAYING, SITTING, STANDING, WALKING, WALKING_DOWNSTAIRS, WALKING_UPSTAIRS), while all the other columns are the averages of the quantities indicated by the column names for each subject and activity combination  (eg: the first row of column 3 is the average of the x component of body acceleration for subject 1 and activity "LAYING"). 
@@ -82,7 +82,7 @@ See file UCI\ HAR \Dataset/features_info.txt for details.
 -  fBodyBodyGyroJerkMag-std()
 
 
-STEPS TO CONSTRUCT "Averages.txt" 
+**STEPS TO CONSTRUCT "Averages.txt"** 
 
 Starting from the data in the directory "UCI HAR Dataset" (obtained by downloading and unzipping the file available [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)), the tidy dataset "Averages.txt" is constructed through the following steps in the script run_analysis.R:
 
