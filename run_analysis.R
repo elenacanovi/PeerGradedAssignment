@@ -39,7 +39,7 @@ all_data<-rbind(test_data,train_data)
 features<-read.table(paste(AssignmentDataFolder,"features.txt",sep="/"),col.names = c("number","name"),stringsAsFactors = FALSE)
 
 #2. Finds the variables (i.e. their column in all_data) which contain "mean()" and "std()" in their name. The +2 is due to the fact that the first variable in features is the fourth column of all_data, the second variable in features in the fifth column in all_data etc... (Note the escape characters before the parentheses in "mean\\(\\)")
-mean_or_std_positions<-as.vector(grep("mean\\(\\)|std()",features$name))+2 
+mean_or_std_positions<-as.vector(grep("mean\\(\\)|std\\(\\)",features$name))+2 
 
 #3. Selects only the relevant variables in all_data (subject, group, activity and the variables containing means and standard deviations)
 all_data<-select(all_data,append(c(1,2),mean_or_std_positions))
