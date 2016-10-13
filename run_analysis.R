@@ -3,12 +3,12 @@ library(dplyr)
 #--------
 #Sets working directory and the path to UCI HAR Dataset folder.
 
-#1. Variable with the working directory (change with your path)
-MyWorkingDirectory<-"/Users/elenacanovi/DataScienceTraining/Materiali/Coursera/Getting&CleaningData/Week4/Project/PeerGradedAssignment"
+#1. Variable with the working directory
+MyWorkingDirectory<-getwd()
 setwd(MyWorkingDirectory)
 
 #2. Variable with the path to folder "UCI HAR Dataset" (change with your path)
-AssignmentDataFolder<-"/Users/elenacanovi/DataScienceTraining/Materiali/Coursera/Getting&CleaningData/Week4/Project/UCI\ HAR\ Dataset/"
+AssignmentDataFolder<-paste(MyWorkingDirectory,"/UCI\ HAR\ Dataset/",sep="/")
 
 #--------
 #Reads the relevant test and train files
