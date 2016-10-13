@@ -13,7 +13,7 @@ The first column contains the subject number (ranging from 1 to 30), the second 
 The units of measures of the variables in column 3 through column 68 are the same as those in the original data. 
 See file UCI\ HAR \Dataset/features_info.txt for details. 
 
-#Header
+(#Header)
 
 **Column names:**
 -  Subject 
